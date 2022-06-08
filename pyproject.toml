@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gjallarhorn"
+version = "0.0.1"
+description = "A TaskWarrior Notification System"
+authors = ["James Reid <4808760+YR-ZR0@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tasklib = "^2.4.3"
+pytimeparse = "^1.1.8"
+APScheduler = "^3.9.1"
+SQLAlchemy = "^1.4.37"
+watchdog = "^2.1.8"
+
+[tool.poetry.dev-dependencies]
+icecream = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
