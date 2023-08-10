@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gjallarhorn Results</title>
+  </head>
+  <body>
+    <h1>Gjallarhorn Results</h1>
+    <p>Job | Next Run</p>
+    {% for result in jobs %}
+    <p>{{ result.id }} | {{ result.next_run_time }}</p>
+    {% endfor %}
+  </body>
+</html>
